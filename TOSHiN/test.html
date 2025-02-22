@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>沿革</title>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .timeline {
+            width: 400px;
+            position: relative;
+        }
+
+        .timeline::before {
+            content: "";
+            position: absolute;
+            left: 100px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: #B4B9D1;
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 25px;
+        }
+
+        .year {
+            width: 90px;
+            font-size: 40px;
+            font-weight: bold;
+            color: #98a6cf;
+            text-align: right;
+            padding-right: 20px;
+            flex-shrink: 0;
+        }
+
+        .content {
+            position: relative;
+            padding-left: 30px;
+            color: #175bb3;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .content::before {
+            content: "";
+            position: absolute;
+            left: -11px;
+            top: 15px;
+            width: 5px;
+            height: 5px;
+            background-color: #6D7BA6;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="timeline">
+    <div class="timeline-item">
+        <div class="year">1938</div>
+        <div class="content">角銅真雄が東京都千代田区神田神保町にて平和紙業株式会社（前身）を創立</div>
+    </div>
+    <div class="timeline-item">
+        <div class="year">1958</div>
+        <div class="content">石炭統制合理化法に基づき全石炭事業を閉鎖</div>
+    </div>
+    <div class="timeline-item">
+        <div class="year">1959</div>
+        <div class="content">福岡市東那珂にて設立し、炭鉱機械の更生支援を開始</div>
+    </div>
+    <div class="timeline-item">
+        <div class="year">1979</div>
+        <div class="content">福岡市早良区大字田にて有限会社トーシンを創業</div>
+    </div>
+    <div class="timeline-item">
+        <div class="year">1993</div>
+        <div class="content">株式会社トーシンに社名変更、本社を福岡市早良区有田に移転</div>
+    </div>
+    <div class="timeline-item">
+        <div class="year">1995</div>
+        <div class="content">アメリカより輸入事業を開始</div>
+    </div>
+    <div class="timeline-item">
+        <div class="year">1996</div>
+        <div class="content">中国およびタイより輸入事業を開始</div>
+    </div>
+    <div class="timeline-item">
+        <div class="year">1999</div>
+        <div class="content">韓国より輸入事業を開始</div>
+    </div>
+    <div class="timeline-item">
+        <div class="year">2001</div>
+        <div class="content">インドネシアより輸入事業を開始</div>
+    </div>
+    <div class="timeline-item">
+        <div class="year">2010</div>
+        <div class="content">台湾より輸入事業を開始</div>
+    </div>
+    <div class="timeline-item">
+        <div class="year">2021</div>
+        <div class="content">ベトナムより輸入事業を開始</div>
+    </div>
+    <div class="timeline-item">
+        <div class="year">2022</div>
+        <div class="content">福岡県飯塚市伊岐須に倉庫を開設</div>
+    </div>
+</div>
+
+</body>
+</html>
